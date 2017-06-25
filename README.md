@@ -43,7 +43,7 @@ queries. Completeness is sacrificed for decidability, which means that the
 procedure actually terminates. (Soundness, completeness, decidability in
 first-order logic is one of those "pick any two" scenarios.)
 
-How much *effort* (and time) is spend on evaluating a query is controlled
+How much *effort* (and time) is spent on evaluating a query is controlled
 through a parameter that specifies how many case splits the reasoner may
 investigate. Every modal operator is decorated with such an effort parameter.
 This effort parameter and its limiting effect on the reasoning capabilities is
